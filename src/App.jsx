@@ -35,7 +35,7 @@ export default function App(){
   <div>
     <Navbar/>
 
-        <main>
+        <main className="bg-gray-500">
                 <p>Characters: {characters.length}</p>
 
                 <div className="flex gap-6 flex-wrap justify-center ">
